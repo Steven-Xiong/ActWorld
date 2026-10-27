@@ -1,0 +1,55 @@
+{
+  "action_class": "tp_game_place_pickup_drive",
+  "chunks": [
+    {
+      "description": "The subject approaches the parked car while holding a paper bag and reaches toward the driver-side door. By the end of the chunk, he has opened the door and is positioned to place the bag inside, but the bag has not yet been set down.",
+      "phase": "reaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject leans into the open car doorway and places the paper bag onto the car’s interior seat area. By the end of the chunk, the bag has been set inside and is being released from his hands.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject withdraws from the car after placing the bag inside and then swings the open driver-side door shut. By the end of the chunk, contact with the car ends and the door is closed.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject has finished with the car and walks away from it toward the curb area. No physical contact with any object is visible yet, and no object state changes occur in this chunk.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject walks toward the curbside sidewalk area where the next object appears to be located, but no physical contact with any object is visible in this chunk. No object position or state changes occur.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches down toward a phone lying on the curbside sidewalk and begins the pickup action. Contact is being initiated, but the phone has not yet visibly left the ground in this chunk.",
+      "phase": "reaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject completes picking up the phone from the curb, straightening up with it now in hand. After the lift is finished, he begins walking away while holding the phone.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject walks toward the parked car while holding the phone in hand. No new contact with the car or other object is made yet, and no object state changes occur in this chunk.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches the parked car’s driver-side door and opens it while still holding the phone. By the end of the chunk, the door is open and the subject begins getting into the car.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject finishes getting into the parked car through the open driver-side door. The driver-side door then swings shut, completing entry into the vehicle.",
+      "phase": "completing",
+      "has_interaction": true
+    }
+  ]
+}

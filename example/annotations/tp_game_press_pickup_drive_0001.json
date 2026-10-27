@@ -1,0 +1,55 @@
+{
+  "action_class": "tp_game_press_pickup_drive",
+  "chunks": [
+    {
+      "description": "The subject is walking toward the crosswalk pole/button area and the parked motorcycle, but does not make visible contact with any object in this chunk. No object state or position changes are observable yet.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches out and presses the crosswalk button/panel on the pole, maintaining hand contact through the end of the chunk. No other object is handled yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject has released the crosswalk button and is no longer touching any object. He stands and begins moving toward the motorcycle, but no contact with the motorcycle or helmet occurs in this chunk.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject walks toward the parked motorcycle and helmet but does not make contact with either object in this chunk. No object position or state changes are visible.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject continues walking up to the parked motorcycle and the helmet resting on it. No physical contact or object movement is visible yet.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject grasps the helmet from the motorcycle seat and lifts it upward with both hands. He then raises it to head level, preparing to put it on.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject places the helmet onto his head and adjusts it with both hands until it is secured. He then leans onto the motorcycle, putting a hand on it as he begins mounting into riding position.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject is mounted on the motorcycle and shifts into a riding posture, moving his hands onto the controls and steadying himself over the seat. The motorcycle begins rolling forward slowly as he starts to drive it.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject remains in contact with the motorcycle’s handlebars and continues actively driving it forward. The motorcycle stays under his control and keeps moving as he maintains a steady riding posture.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject maintains both hands on the motorcycle’s handlebars and continues actively driving it forward. The motorcycle remains in motion under his control with no release or new interaction beginning.",
+      "phase": "manipulating",
+      "has_interaction": true
+    }
+  ]
+}

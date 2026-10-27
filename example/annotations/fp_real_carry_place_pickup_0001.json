@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_real_carry_place_pickup",
+  "chunks": [
+    {
+      "description": "The subject reaches to the plate of food on the counter, grasps it with both hands, and lifts it off the surface. The plate changes from resting on the counter to being held and carried.",
+      "phase": "lifting",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues carrying the plate of food with both hands. The plate remains lifted and supported in the subject’s hands, with no placement or release yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues carrying the plate of food while keeping it supported in hand. The plate remains lifted and moves with the subject, with no placement or release yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues carrying a plate of food while moving it toward the dining table. The plate remains supported in hand and is not yet set down or released during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject is holding and carrying a plate of food with both hands over the dining table, positioning it closer to a place setting. The plate remains in hand throughout this chunk and is not yet set down or released.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject lowers the plate of food onto the dining table and adjusts its position near the glass and utensils. By the end of the chunk, the plate is set down and one hand begins to release from it.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The plate has already been placed on the table, and the subject finishes withdrawing their hand after setting down the utensils beside it. The dish, glass, and utensils remain stationary with no new object pickup yet.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No physical contact with any object is visible in this chunk. The previously placed plate, utensils, and glass remain stationary while the subject moves toward the kitchen counter area where a pickup may occur next.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "A glass of water sits on the counter and remains stationary throughout this chunk. No hand-object contact occurs yet; the subject is only moving into position to pick up the glass next.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the glass of water, grasps it, and lifts it off the counter. By the end of the chunk, the glass is being carried in hand.",
+      "phase": "manipulating",
+      "has_interaction": true
+    }
+  ]
+}

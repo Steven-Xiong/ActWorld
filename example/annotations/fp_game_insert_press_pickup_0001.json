@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_game_insert_press_pickup",
+  "chunks": [
+    {
+      "description": "The subject brings a coin to the vending machine’s coin slot and inserts it into the slot. The hand remains in contact as the coin is pushed inward, changing the machine from not receiving money to receiving the coin.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "After finishing the coin insertion, the subject withdraws their hand from the coin slot area and then presses a selection button on the vending machine. The interaction changes from coin handling to button activation, indicating a drink selection input.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject’s finger remains on the vending machine’s drink selection button briefly, then lifts away, completing the button press. No other object is picked up or moved during this chunk.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The button press interaction has already ended, and no hand or object contact is visible in this chunk. The vending machine and its contents remain unchanged with no new pickup or manipulation occurring.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No hand-object contact or object movement is visible in this chunk. The vending machine remains unchanged, indicating the button-press action has already finished and no new pickup begins yet.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No hand-object contact or object manipulation is visible in this chunk. The motorcycle remains stationary as the subject only approaches it, with no helmet pickup beginning yet.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "No hand-object contact or manipulation is visible in this chunk. The subject is only approaching the parked motorcycle, and the helmet remains on the seat without being touched or moved.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "No physical contact with the motorcycle or helmet occurs in this chunk. The subject is only moving closer to the helmet resting on the motorcycle seat, with no visible pickup or object state change.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the helmet resting on the motorcycle seat, makes contact with both hands, and grasps it. The helmet is then lifted up off the seat, changing position from resting on the motorcycle to being held in the subject’s hands.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The helmet pickup has already been completed before this chunk, and no further contact with the motorcycle or helmet is visible here. The objects remain unchanged with no new manipulation or release shown.",
+      "phase": "post_action",
+      "has_interaction": false
+    }
+  ]
+}

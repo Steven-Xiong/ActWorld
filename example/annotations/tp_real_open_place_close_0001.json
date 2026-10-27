@@ -1,0 +1,55 @@
+{
+  "action_class": "tp_real_open_place_close",
+  "chunks": [
+    {
+      "description": "The subject grips the cabinet handle and pulls the tall cabinet door open. The cabinet door swings outward, changing from closed to open and revealing the shelves inside.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject keeps contact with the tall cabinet door and swings it farther open. The cabinet remains open as the hand continues guiding the door outward.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "No active hand-object interaction is visible in this chunk. The cabinet remains open, and the scene shows the objects settled with no observable placement or closing action occurring.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No person or hand-object contact is visible in this chunk. The dining table setting and surrounding objects remain unchanged with no observable placing, opening, or closing action.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "The person is holding a bowl and moving it toward the dining table, aligning it over an open placemat area. The bowl remains in the person’s hand and is not yet placed during this chunk.",
+      "phase": "approaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The person lowers the bowl onto the near placemat on the dining table and releases it, leaving the bowl settled in place beside the spoon.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The bowl remains set on the placemat beside the spoon with no further contact or movement. The person has moved away from the table, indicating the placing action is already complete.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "The person walks back toward the cabinet area after having placed the bowl, but no clear hand contact or object movement is visible yet. The bowl remains on the table and no cabinet state change occurs in this chunk.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The person grasps the wall cabinet door and swings it shut. The cabinet changes from open to nearly closed during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person keeps hold of the wall cabinet handle and finishes swinging the cabinet door fully shut, then releases the handle. The cabinet changes from nearly closed to closed.",
+      "phase": "completing",
+      "has_interaction": true
+    }
+  ]
+}

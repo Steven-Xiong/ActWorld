@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_real_press_pickup_place",
+  "chunks": [
+    {
+      "description": "The subject reaches to the remote on the sofa and briefly presses a button with a fingertip. The remote stays in place on the cushion and is not picked up.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "No physical contact with any object is visible in this chunk. The remote remains on the sofa and the folded blanket remains on the coffee table, with no object movement or state change yet.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "No physical contact with any object is visible in this chunk. The folded blanket remains resting on the coffee table with no change in position or state.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "No physical contact with the folded blanket is visible in this chunk. The blanket remains resting on the coffee table without any change in position or state while the subject appears to be approaching it.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the folded blanket on the coffee table and makes hand contact, closing their grip on one side of it. The blanket is slightly compressed and begins to shift under the hand, but it is not yet visibly lifted off the table.",
+      "phase": "grasping",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject is firmly holding the folded blanket and lifting/carrying it off the coffee table. The blanket remains compressed in the hand and stays elevated as it is moved.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues holding and carrying the folded blanket in hand. The blanket remains compressed and elevated, with no release or placement occurring yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject lowers the folded blanket onto the sofa cushion and begins releasing it from their hand. The blanket transitions from being held elevated to resting on the sofa surface.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject re-grasps the folded blanket on the sofa, lifts and adjusts it, then lays it back down spread out across the sofa cushion. This is active blanket repositioning rather than a simple completion of placing/releasing.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject briefly re-grasps the blanket on the sofa and tugs/smooths it, slightly adjusting how it lies across the cushion. This is blanket repositioning rather than a press, pickup, or place action.",
+      "phase": "manipulating",
+      "has_interaction": true
+    }
+  ]
+}

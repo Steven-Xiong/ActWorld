@@ -1,0 +1,55 @@
+{
+  "action_class": "tp_real_carry_place_pickup",
+  "chunks": [
+    {
+      "description": "The subject is carrying a plate of food with both hands, maintaining continuous contact as the plate moves with them. No placement or pickup occurs in this chunk; the object remains supported and stable in the subject’s hands.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues carrying a plate of food with both hands, maintaining steady contact and support. The plate moves with the subject and is not placed down or released during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues carrying a plate of food with both hands while moving it toward the dining table. The plate remains supported and level, with no placement or release yet in this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject is still holding and carrying a plate of food with both hands as it moves closer to the dining table. The plate remains supported and level, with no placement or release occurring in this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject lowers the plate of food onto the dining table while holding it with both hands. By the end of the chunk, the plate is set down on the tabletop and being released.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject finishes setting the plate of food onto the dining table and releases it with both hands. The plate remains on the tabletop as the hands withdraw.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The plate of food remains settled on the dining table with no person or hand in contact. This chunk shows the completed result of the prior placement rather than a new pickup or manipulation.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No person or hand is visible, and no object is being touched or moved. The plate remains resting on the kitchen island/counter, indicating a post-action moment before any new pickup occurs.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No object is touched or moved during this chunk. The subject moves toward the kitchen island/counter where a cup is visible, suggesting approach before a pickup.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the mug on the kitchen island, grasps it, and lifts it off the countertop. By the end of the chunk, the mug is being held and carried in the subject’s hand.",
+      "phase": "manipulating",
+      "has_interaction": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_game_open_place_pickup",
+  "chunks": [
+    {
+      "description": "The subject grips the parked car’s door handle and pulls the passenger door open. The car door swings outward from closed to open, revealing the interior.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The car’s passenger door remains open while the subject stays engaged at the doorway, with no new object being placed or picked up in this chunk. The visible interaction is the end state of the opening action, with the door held/open and the interior exposed.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject is holding a small bag and moving it into position over the front passenger seat. The bag is being lowered toward the seat, indicating the placement action is underway but not yet clearly released.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject finishes placing the small bag onto the front passenger seat and releases their hand from it. The bag remains settled on the seat as the placement action completes.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject pushes the open car door inward, swinging it shut while maintaining hand contact on the door edge. The door changes from fully open toward a nearly closed position.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "No active object interaction is visible in this chunk. The car door remains shut and no hand contact, placement, or pickup occurs.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No physical contact or object manipulation is visible in this chunk. The subject is only approaching the wooden pallet/crate area where a later pickup may occur, but no reach, grasp, or pickup happens here.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the phone resting on the wooden pallet and makes hand contact with it. The phone remains on the pallet during this chunk, with pickup not yet completed.",
+      "phase": "contact",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject completes picking up the phone from the wooden pallet, lifting it off the surface and holding it securely in hand. The phone changes position from resting on the pallet to being fully raised and retained.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues holding the phone in hand after the pickup, with no further manipulation or release. The phone remains secured and stable in the subject’s grasp.",
+      "phase": "completing",
+      "has_interaction": true
+    }
+  ]
+}
