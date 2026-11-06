@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_real_water_place_pickup",
+  "chunks": [
+    {
+      "description": "The subject is actively holding a hose nozzle and spraying water onto the potted plant. The plant and pot remain in place while water is applied continuously.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues holding the hose nozzle and spraying water onto the potted plant. The water stream remains on the plant and potting soil, with no release or pickup occurring in this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues holding the hose nozzle and spraying water onto the potted plant and its soil. The watering remains continuous throughout this chunk, with no placement or pickup occurring yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues holding the hose nozzle and spraying water onto the potted plant and its soil. The watering remains ongoing throughout this chunk, with no visible placement or pickup yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject lowers the hose nozzle to the ground beside the potted plant and releases it. Watering stops as the nozzle is set down next to the pot.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject reaches toward the hose lying beside the potted plant and makes contact with it. The hose/nozzle remains on the ground at the end of the chunk, indicating the start of a pickup.",
+      "phase": "reaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The hose and spray nozzle lie beside the potted plant on the ground and remain undisturbed throughout this chunk. No hand or object manipulation is visible, indicating the placement is already complete and the scene is in a post-action state.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "The hose remains placed on the ground beside the flower pot with no visible hand contact or object movement. This chunk shows a settled post-placement state rather than active watering or pickup.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No hand-object contact is visible in this chunk. A hand trowel is visible on the ground near the patio, but it remains untouched and stationary as the subject moves toward it.",
+      "phase": "approaching",
+      "has_interaction": false
+    },
+    {
+      "description": "The subject reaches to the hand trowel on the patio and makes contact with its handle. By the end of the chunk, the trowel is still on the ground with no clear lift yet visible.",
+      "phase": "contact",
+      "has_interaction": true
+    }
+  ]
+}

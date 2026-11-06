@@ -77,7 +77,7 @@ ActWorld generates video in chunks of **33 frames** at 384×640, starting from a
 - a keyboard command (`W`, `A`, `S`, `D` and combinations, or `None`) and a mouse command (`↑ ↓ ← →` and combinations, or `·` for idle);
 - a short caption describing what happens in that chunk (e.g. "the person places the plate on the table").
 
-Run the 8 I-Bench samples in [`example/`](example):
+Run the 11 I-Bench samples in [`example/`](example):
 
 ```bash
 bash infer.sh                              # writes outputs/actworld/<id>.mp4

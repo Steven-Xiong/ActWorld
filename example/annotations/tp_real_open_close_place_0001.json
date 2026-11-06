@@ -1,0 +1,55 @@
+{
+  "action_class": "tp_real_open_close_place",
+  "chunks": [
+    {
+      "description": "The person is holding the umbrella and opening it from a folded state beside the table. The canopy expands fully as they lift it up into an open position.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person is holding the umbrella in an open state and carrying it while walking away from the table. The umbrella remains open with no visible closing or placement during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person continues holding and carrying the umbrella while it remains open. There is no visible closing or placing during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person remains in physical contact with the umbrella and carries it while it stays open overhead. There is no visible closing or placing in this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person keeps hold of the umbrella and closes it, bringing it down from an open overhead position to a folded state at their side. The umbrella’s state changes from open to closed during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person continues holding the folded umbrella and adjusts its position from centered in front of their body down toward one side while walking. The umbrella remains closed, with no release or placement yet.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person continues holding and carrying the folded umbrella while adjusting its position slightly in their hands. The umbrella remains closed and is not placed or released during this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The person is holding and carrying the folded umbrella while moving it toward the nearby table. The umbrella remains closed and in the person’s hands, with no placement or release yet visible in this chunk.",
+      "phase": "approaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The person lowers the folded umbrella onto the tabletop and lets go of it. By the end of the chunk, the umbrella remains closed and resting on the table.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "The person makes brief final contact with the folded umbrella on the tabletop, nudging or settling it into place. They then withdraw their hand, leaving the umbrella closed and resting still on the table.",
+      "phase": "completing",
+      "has_interaction": true
+    }
+  ]
+}

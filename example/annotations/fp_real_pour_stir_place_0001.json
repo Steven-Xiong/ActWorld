@@ -1,0 +1,55 @@
+{
+  "action_class": "fp_real_pour_stir_place",
+  "chunks": [
+    {
+      "description": "The subject is holding and tilting a pitcher to pour water into the glass. The glass remains in place while its water level increases.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues pouring water from the pitcher into the glass, raising the water level further. By the end of the chunk, the pour stops as the pitcher is moved away, leaving the filled glass in place.",
+      "phase": "completing",
+      "has_interaction": true
+    },
+    {
+      "description": "The bowl with the spoon resting inside and the filled glass remain stationary on the table, with no visible hand contact or object movement. This appears to be the settled moment after the pouring action has finished.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "A hand reaches toward the filled glass on the table near the bowl, but there is no visible grasp or movement of the glass yet. The bowl and spoon remain stationary.",
+      "phase": "reaching",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject’s hand makes contact with the empty glass and slides it slightly along the table closer to the bowl. The bowl stays in place with the spoon resting inside, and no pouring or stirring occurs in this chunk.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject grips the spoon and stirs the soup inside the bowl, moving the spoon through the liquid. The bowl stays in place while the soup is agitated.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject continues stirring the soup with the spoon inside the bowl, moving the spoon through the liquid. The soup is visibly agitated while the bowl remains in place.",
+      "phase": "manipulating",
+      "has_interaction": true
+    },
+    {
+      "description": "The subject stops manipulating the spoon and sets it down so it rests in the bowl, then releases contact. The bowl and soup remain in place while the spoon becomes stationary.",
+      "phase": "releasing",
+      "has_interaction": true
+    },
+    {
+      "description": "No active object manipulation occurs in this chunk. The cup, pitcher, bowl, and spoon remain resting in place after the prior placement action.",
+      "phase": "post_action",
+      "has_interaction": false
+    },
+    {
+      "description": "No active object manipulation occurs in this chunk. The visible cup and pitcher remain stationary where they were left after the earlier actions.",
+      "phase": "post_action",
+      "has_interaction": false
+    }
+  ]
+}
